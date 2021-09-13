@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 
 export default function Social(){
+    const test: number = 0;
     const [subscribes, setsubscribes] = useState(6000);
     useEffect(() => {
         const interval = setInterval(() => {
